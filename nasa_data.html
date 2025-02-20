@@ -1,0 +1,124 @@
+
+    <html>
+    <head>
+        <title>NASA APOD</title>
+        <style>
+            body {
+                color: white;
+                background-color: black;
+                text-align: center;
+            }
+            table {
+                margin: 0 auto;
+                background-color: white;
+                color: black;
+            }
+            a {
+                text-decoration: none;
+            }
+            img {
+                border: 2px solid white;
+                border-radius: 10px;
+            }
+        </style>
+        <script>
+            function getRandomImage() {
+                const images = ["https://apod.nasa.gov/apod/image/2402/Hfg1Abell6_CadenaCoulon_1080.jpg", "https://apod.nasa.gov/apod/image/2402/sts98plume_nasa_960.jpg", "https://apod.nasa.gov/apod/image/2402/PIA26243-1024.jpg", "https://apod.nasa.gov/apod/image/2402/Rosette2024newt533mmcopy1024.png", "https://apod.nasa.gov/apod/image/2402/NGC104_RGB_NASA1024.png", "https://apod.nasa.gov/apod/image/2402/Antennae_Biggs_960.jpg", "https://apod.nasa.gov/apod/image/2402/Ngc1566_HubbleWebb_960.jpg", "https://apod.nasa.gov/apod/image/2402/Carina_Taylor_960.jpg", "https://apod.nasa.gov/apod/image/2402/cone_hubbleschmidt_960.jpg", "https://apod.nasa.gov/apod/image/2402/a14pan9335-43emj_900.jpg"];
+                const randomIndex = Math.floor(Math.random() * images.length);
+                return images[randomIndex];
+            }
+            window.onload = function() {
+                document.getElementById('randomImage').src = getRandomImage();
+            }
+        </script>
+    </head>
+    <body>
+        <h1>Base de datos NASA APOD</h1>
+        <br>
+        <p>Uno de los sitios web mas populares de la NASA es <a href="https://apod.nasa.gov/apod/astropix.html">Astronomy Picture of the Day</a> . De hecho, este sitio web es uno de los mas populares en todas las agencias federales.</p>
+        <br>
+        <br>
+        <table border="1">
+            <tr>
+                <th>Fecha</th>
+                <th>Avistamiento</th>
+                <th>Explicacion</th>
+                <th>Link a imagen</th>
+            </tr>
+            
+        <tr>
+            <td>2024-02-12</td>
+            <td>HFG1 & Abell 6: Planetary Nebulae</td>
+            <td>Planetary nebulae like Heckathorn-Fesen-Gull 1 (HFG1) and Abell 6 in the constellation Cassiopeia ar...</td>
+            <td><a href="https://apod.nasa.gov/apod/image/2402/Hfg1Abell6_CadenaCoulon_1080.jpg">Ver imagen</a></td>
+        </tr>
+        
+        <tr>
+            <td>2024-02-11</td>
+            <td>Rocket Plume Shadow Points to the Moon</td>
+            <td>Why would the shadow of a rocket's launch plume point toward the Moon?  In early 2001 during a launc...</td>
+            <td><a href="https://apod.nasa.gov/apod/image/2402/sts98plume_nasa_960.jpg">Ver imagen</a></td>
+        </tr>
+        
+        <tr>
+            <td>2024-02-10</td>
+            <td>The Shadow of Ingenuity's Damaged Rotor Blade</td>
+            <td>On January 18, 2024, during its 72nd flight in the thin Martian atmosphere, autonomous Mars Helicopt...</td>
+            <td><a href="https://apod.nasa.gov/apod/image/2402/PIA26243-1024.jpg">Ver imagen</a></td>
+        </tr>
+        
+        <tr>
+            <td>2024-02-09</td>
+            <td>When Roses Aren't Red</td>
+            <td>Not all roses are red of course, but they can still be very pretty. Likewise, the beautiful Rosette ...</td>
+            <td><a href="https://apod.nasa.gov/apod/image/2402/Rosette2024newt533mmcopy1024.png">Ver imagen</a></td>
+        </tr>
+        
+        <tr>
+            <td>2024-02-08</td>
+            <td>Globular Star Cluster 47 Tuc</td>
+            <td>Globular star cluster 47 Tucanae is a jewel of the southern sky. Also known as NGC 104, it roams the...</td>
+            <td><a href="https://apod.nasa.gov/apod/image/2402/NGC104_RGB_NASA1024.png">Ver imagen</a></td>
+        </tr>
+        
+        <tr>
+            <td>2024-02-07</td>
+            <td>The Heart Shaped Antennae Galaxies</td>
+            <td>Are these two galaxies really attracted to each other? Yes, gravitationally, and the result appears ...</td>
+            <td><a href="https://apod.nasa.gov/apod/image/2402/Antennae_Biggs_960.jpg">Ver imagen</a></td>
+        </tr>
+        
+        <tr>
+            <td>2024-02-06</td>
+            <td>NGC 1566: A Spiral Galaxy from Webb and Hubble</td>
+            <td>What's different about this galaxy? Very little, which makes the Spanish Dancer galaxy, NGC 1566, on...</td>
+            <td><a href="https://apod.nasa.gov/apod/image/2402/Ngc1566_HubbleWebb_960.jpg">Ver imagen</a></td>
+        </tr>
+        
+        <tr>
+            <td>2024-02-05</td>
+            <td>In the Core of the Carina Nebula</td>
+            <td>What's happening in the core of the Carina Nebula?  Stars are forming, dying, and leaving an impress...</td>
+            <td><a href="https://apod.nasa.gov/apod/image/2402/Carina_Taylor_960.jpg">Ver imagen</a></td>
+        </tr>
+        
+        <tr>
+            <td>2024-02-04</td>
+            <td>The Cone Nebula from Hubble</td>
+            <td>Stars are forming in the gigantic dust pillar called the Cone Nebula. Cones, pillars, and majestic f...</td>
+            <td><a href="https://apod.nasa.gov/apod/image/2402/cone_hubbleschmidt_960.jpg">Ver imagen</a></td>
+        </tr>
+        
+        <tr>
+            <td>2024-02-03</td>
+            <td>Apollo 14: A View from Antares</td>
+            <td>Apollo 14's Lunar Module Antares landed on the Moon on February 5, 1971. Toward the end of the stay ...</td>
+            <td><a href="https://apod.nasa.gov/apod/image/2402/a14pan9335-43emj_900.jpg">Ver imagen</a></td>
+        </tr>
+        
+        </table>
+         <br>
+        <img id="randomImage" src="" alt="Random NASA APOD Image" style="max-width: 100%; height: auto;">
+    </body>
+    </html>
+    
